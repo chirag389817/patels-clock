@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/patels-clock/static/css/main.a2f1d79d.css",
+    "main.js": "/patels-clock/static/js/main.78737c78.js",
+    "static/js/787.18ca56f7.chunk.js": "/patels-clock/static/js/787.18ca56f7.chunk.js",
+    "index.html": "/patels-clock/index.html",
+    "main.a2f1d79d.css.map": "/patels-clock/static/css/main.a2f1d79d.css.map",
+    "main.78737c78.js.map": "/patels-clock/static/js/main.78737c78.js.map",
+    "787.18ca56f7.chunk.js.map": "/patels-clock/static/js/787.18ca56f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f1d79d.css",
+    "static/js/main.78737c78.js"
+  ]
+}
