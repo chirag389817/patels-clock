@@ -1,0 +1,53 @@
+.segment-x {
+    width: var(--length-h);
+    height: var(--size);
+    display: flex;
+    background-color: var(--segment-color);
+    margin: 1px;
+}
+.segment-item-s-x {
+    border-bottom: var(--half-size) solid transparent;
+    border-top: var(--half-size) solid transparent;
+    border-left: var(--half-size) solid transparent;
+    border-right: var(--half-size) solid var(--segment-color);
+    position: relative;
+    right: var(--size);
+}
+.segment-item-m-x {
+    width: 100%;
+}
+.segment-item-e-x {
+    border-bottom: var(--half-size) solid transparent;
+    border-top: var(--half-size) solid transparent;
+    border-left: var(--half-size) solid var(--segment-color);
+    border-right: var(--half-size) solid transparent;
+    position: relative;
+    left: var(--size);
+}
+.segment-y {
+    width: var(--size);
+    height: var(--length-v);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--segment-color);
+    margin: 1px;
+}
+.segment-item-s-y {
+    border-bottom: var(--half-size) solid var(--segment-color);
+    border-top: var(--half-size) solid transparent;
+    border-left: var(--half-size) solid transparent;
+    border-right: var(--half-size) solid transparent;
+    position: relative;
+    bottom: var(--size);
+}
+.segment-item-m-y {
+    height: 100%;
+}
+.segment-item-e-y {
+    border-bottom: var(--half-size) solid transparent;
+    border-top: var(--half-size) solid var(--segment-color);
+    border-left: var(--half-size) solid transparent;
+    border-right: var(--half-size) solid transparent;
+    position: relative;
+    top: var(--size);
+}

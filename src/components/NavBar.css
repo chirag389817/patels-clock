@@ -1,0 +1,29 @@
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+    color: olivedrab;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+nav {
+    color: olivedrab;
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: rgba(206, 205, 205, 0.5);
+    border: 2px solid rgba(148, 148, 148, 0.3);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    font-size: 1.5rem;
+}
+.title {
+    font-family: "Encode Sans Semi Condensed", sans-serif;
+    display: block;
+    margin-left: 1rem;
+    white-space: nowrap;
+}
